@@ -1,23 +1,23 @@
 package org.example.case_module3.model;
 
-public class NhaChoThue {
+public class Motel {
     private String ma_nha;
     private String dia_chi;
     private double dien_tich;
     private double don_gia;
     private String trang_thai;
 
-    public NhaChoThue() {
+    public Motel() {
     }
 
-    public NhaChoThue(String dia_chi, double dien_tich, double don_gia, String trang_thai) {
+    public Motel(String dia_chi, double dien_tich, double don_gia, String trang_thai) {
         this.dia_chi = dia_chi;
         this.dien_tich = dien_tich;
         this.don_gia = don_gia;
         this.trang_thai = trang_thai;
     }
 
-    public NhaChoThue(String ma_nha, String dia_chi, double dien_tich, double don_gia, String trang_thai) {
+    public Motel(String ma_nha, String dia_chi, double dien_tich, double don_gia, String trang_thai) {
         this.ma_nha = ma_nha;
         this.dia_chi = dia_chi;
         this.dien_tich = dien_tich;

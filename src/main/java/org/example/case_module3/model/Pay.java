@@ -2,7 +2,7 @@ package org.example.case_module3.model;
 
 import java.util.Date;
 
-public class ThanhToan {
+public class Thanh_Toan {
     private String ma_hd_tt;
     private String ma_kh;
     private String ma_nv;
@@ -11,10 +11,10 @@ public class ThanhToan {
     private String ho_so_kem;
     private double tien_thanh_toan;
 
-    public ThanhToan() {
+    public Thanh_Toan() {
     }
 
-    public ThanhToan(String ma_kh, String ma_nv, Date ngay_tt, String ly_do, String ho_so_kem, double tien_thanh_toan) {
+    public Thanh_Toan(String ma_kh, String ma_nv, Date ngay_tt, String ly_do, String ho_so_kem, double tien_thanh_toan) {
         this.ma_kh = ma_kh;
         this.ma_nv = ma_nv;
         this.ngay_tt = ngay_tt;
@@ -23,7 +23,7 @@ public class ThanhToan {
         this.tien_thanh_toan = tien_thanh_toan;
     }
 
-    public ThanhToan(String ma_hd_tt, String ma_kh, String ma_nv, Date ngay_tt, String ly_do, String ho_so_kem, double tien_thanh_toan) {
+    public Thanh_Toan(String ma_hd_tt, String ma_kh, String ma_nv, Date ngay_tt, String ly_do, String ho_so_kem, double tien_thanh_toan) {
         this.ma_hd_tt = ma_hd_tt;
         this.ma_kh = ma_kh;
         this.ma_nv = ma_nv;
